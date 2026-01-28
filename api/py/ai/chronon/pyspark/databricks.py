@@ -5,7 +5,7 @@ from typing import cast
 
 from pyspark.dbutils import DBUtils
 from pyspark.sql import SparkSession
-from typing_extensions import override
+# from typing_extensions import override
 
 from ai.chronon.api.ttypes import GroupBy, Join, StagingQuery
 from ai.chronon.pyspark.constants import (
@@ -179,3 +179,5 @@ class DatabricksStagingQuery(StagingQueryExecutable):
             The Databricks platform interface
         """
         return DatabricksPlatform(self.spark)
+
+# testing conflict
