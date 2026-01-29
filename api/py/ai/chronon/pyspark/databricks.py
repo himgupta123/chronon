@@ -181,3 +181,4 @@ class DatabricksStagingQuery(StagingQueryExecutable):
         return DatabricksPlatform(self.spark)
 
 # testing conflict
+# test post merge confict resolution
