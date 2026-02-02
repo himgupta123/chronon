@@ -429,3 +429,4 @@ Join our [community Slack workspace](https://join.slack.com/t/chrononworkspace/s
 # test sync
 # test stage when MR is already open
 # test stage post merge conflict resolution
+# manual check
